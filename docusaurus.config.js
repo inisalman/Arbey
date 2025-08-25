@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Arbey',
+  title: 'Dinokumentasi Arbey',
   tagline: 'Docs',
   favicon: 'img/favicon.ico',
 
@@ -93,42 +93,38 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Home',
+           
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Dinokumentasi Arbey',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Home',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'More info',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Tindakan',
+                href: '/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'A',
+                href: '/',
               },
               {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'B',
+                href: '/',
               },
             ],
           },
@@ -136,12 +132,12 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Dev',
+                to: 'https://salmanalfarisi.id',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/inisalman/Arbey',
               },
             ],
           },
