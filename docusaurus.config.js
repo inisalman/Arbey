@@ -112,24 +112,16 @@ const config = {
             ],
           },
           {
-            title: 'More info',
+            title: 'More',
             items: [
               {
                 label: 'Tindakan',
                 href: '/',
               },
-              {
-                label: 'A',
-                href: '/',
-              },
-              {
-                label: 'B',
-                href: '/',
-              },
             ],
           },
           {
-            title: 'More',
+            title: 'Info',
             items: [
               {
                 label: 'Dev',
