@@ -96,9 +96,19 @@ const config = {
             label: 'Home',
            
           },
+          {type: 'search', position: 'right'},
           
         ],
       },
+      algolia: {
+    appId: 'VGSB470OA8', // ganti
+    apiKey: 'b842fe8818f2316c1cc8c16b80611e47', // ganti dengan Search-Only API Key
+    indexName: 'arbey', // ganti
+    contextualSearch: true, // opsional, biar hasil sesuai halaman/docs
+    searchParameters: {}, // opsional
+    searchPagePath: 'search', // bikin halaman khusus /search
+  },
+
       footer: {
         style: 'dark',
         links: [
