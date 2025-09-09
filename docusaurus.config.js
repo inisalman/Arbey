@@ -103,7 +103,7 @@ const config = {
       algolia: {
     appId: '3O6ZJSWAJO', // ganti
     apiKey: '465688d60accc06c1a33c9577ee98b1d', // ganti dengan Search-Only API Key
-    indexName: 'Arbeynew', // ganti
+    indexName: 'arbey2', // ganti
     contextualSearch: true, // opsional, biar hasil sesuai halaman/docs
     searchParameters: {}, // opsional
     searchPagePath: 'search', // bikin halaman khusus /search
