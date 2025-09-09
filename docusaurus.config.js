@@ -101,9 +101,9 @@ const config = {
         ],
       },
       algolia: {
-    appId: 'VGSB470OA8', // ganti
-    apiKey: 'b842fe8818f2316c1cc8c16b80611e47', // ganti dengan Search-Only API Key
-    indexName: 'arbey', // ganti
+    appId: '3O6ZJSWAJO', // ganti
+    apiKey: '465688d60accc06c1a33c9577ee98b1d', // ganti dengan Search-Only API Key
+    indexName: 'Arbeynew', // ganti
     contextualSearch: true, // opsional, biar hasil sesuai halaman/docs
     searchParameters: {}, // opsional
     searchPagePath: 'search', // bikin halaman khusus /search
